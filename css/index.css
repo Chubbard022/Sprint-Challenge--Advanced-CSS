@@ -169,9 +169,6 @@ p {
   flex-direction: column;
 }
 @media (max-width: 500px) {
-  .nav-container {
-    border: 1px solid red;
-  }
 }
 .nav-container h1 {
   font-size: 4rem;
@@ -205,6 +202,12 @@ footer {
   width: 100%;
   border-radius: 0.5rem;
 }
+@media (max-width: 500px) {
+  .home .intro img {
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+  }
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
@@ -213,17 +216,16 @@ footer {
 @media (max-width: 500px) {
   .home .space-images .blast {
     width: 100%;
+    margin-left: 1rem;
   }
 }
 @media (max-width: 500px) {
   .home .space-images .sky {
-    border: 3px solid red;
     display: none;
   }
 }
 @media (max-width: 500px) {
   .home .space-images .launch {
-    border: 3px solid red;
     display: none;
   }
 }
@@ -302,6 +304,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-img {
     width: 95%;
+    margin-left: 0.9rem;
   }
 }
 .home .walk .walk-img img {
