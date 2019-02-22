@@ -313,3 +313,33 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.about-container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 auto;
+}
+.about-container .about-top {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 2rem;
+}
+.about-container .about-top h1 {
+  font-size: 3.5rem;
+  padding-bottom: 1rem;
+}
+.about-container .about-top img {
+  padding-top: 1rem;
+  width: 100%;
+  height: 50%;
+}
+.gif {
+  width: 100%;
+  padding: 2rem;
+}
+.gif a img {
+  width: 100%;
+}
