@@ -264,6 +264,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
+    padding-top: 1rem;
   }
 }
 .home .walk .walk-text h3 {
