@@ -33,15 +33,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+    Adaptive websites just inserts its content into the browser and won’t consider the dimensions of the device viewport dimension. This can cause for unwanted horizontal scrolling. Responsive websites adjust its content with known information through meta tags and media queries it will display a ‘inline’ display that is more natural of an eye appeal.
 
 2. Describe what it means to be mobile first vs desktop first.
+    When you are a mobile based project, you are working with a mobile design first while using media queries and min-width selectors to scale up to desktop. When you are a desktop first project you are working on the desktop first and going down to the mobile. You are also using max-width selectors.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+    Using that selector for font-size, it allows for an easier conversion of rem units without making it complicated. If you had  1rem it would be equal to 10px. The rem is selecting the root font size, even if it’s not set.
 
 4. How would you describe preprocessing to someone new to CSS?
+    Preprocessing has all the meaning in its name. It will process the preprocessor language, in our case LESS. And turn it into css before the cite is loaded. It uses a compiler that takes in the preprocessor code and creates a css file that is compiled afterwards. It allows for clearer more concise code and nesting.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-
+        1. my favorite part about preprocessors is that you can nest elements with ease. It makes all my code shorter (only in the LESS file). I understand less more than css in terms of condensing code. The hardest part about preprocessors is then Mixins. Conceptually it’s hard to wrap my mind around parameters added to css.However, after watching other lecture recordings, I was able to understand Mixins better.
+        
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
